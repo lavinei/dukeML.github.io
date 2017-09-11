@@ -277,11 +277,11 @@
 				margin: 0 0 2em 0;
 			}
 
-				.image.centered img
-				{
-					margin: 0 auto;
-					width: auto;
-				}
+            .image.centered img
+            {
+                margin: 0 auto;
+                width: auto;
+            }
 
 	/* List */
 
@@ -1089,7 +1089,7 @@
 	{
 		position: relative;
 		overflow: hidden;
-		padding: 2em 0 2em 0;
+		padding: 2em 2em 2em 2em;
 		margin-bottom: 0;
 	}
 
@@ -1179,7 +1179,7 @@
 
 		.carousel .reel
 		{
-			white-space: nowrap;
+            white-space: nowrap;
 			position: relative;
 			-webkit-overflow-scrolling: touch;
 			padding: 0 2em 0 2em;
@@ -1199,7 +1199,8 @@
 			-webkit-transition: opacity 0.75s ease-in-out;			
 			-o-transition: opacity 0.75s ease-in-out;			
 			-ms-transition: opacity 0.75s ease-in-out;			
-			transition: opacity 0.75s ease-in-out;			
+			transition: opacity 0.75s ease-in-out;
+            vertical-align: text-top;
 		}
 		
 			.carousel article.loading
